@@ -6,7 +6,7 @@ import Fade from "../Fade/Fade";
 import style from "./Hero.module.scss";
 import { useMediaQuery } from "../../Hooks";
 
-const Hero = ({ rulesRef, registerRef, onLoad }) => {
+const Hero = ({ registerRef, onLoad }) => {
   const [exploreAnimationData, setExploreAnimationData] = useState();
   const [scrollAnimationData, setScrollAnimationData] = useState();
   const homeRef = useRef(null);
@@ -62,10 +62,10 @@ const Hero = ({ rulesRef, registerRef, onLoad }) => {
           />
         </h1>
         <Fade type="bottom">
-          <h2>The Largest Student-led Hackathon In NorthEast India</h2>
+          <h2>Explore the Developers from the Northeast</h2>
           <p className={`${style.fadeIn1} ${style.show1}`}>
             <img src="/assets/images/clock.svg" alt="timer" />
-            From 14th May to 17th May 2023
+            From 29th March to 31st Mar 2024
           </p>
           <div className={style.btn}>
             <Button
@@ -79,15 +79,6 @@ const Hero = ({ rulesRef, registerRef, onLoad }) => {
               }}
             >
               Register
-            </Button>
-            <Button
-              rulesRef={rulesRef}
-              size={isMobile ? "medium" : "large"}
-              onClick={() => {
-                rulesRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
-              }}
-            >
-              Rules and Regulations
             </Button>
           </div>
         </Fade>
