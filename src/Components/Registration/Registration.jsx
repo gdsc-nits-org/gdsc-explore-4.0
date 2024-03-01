@@ -6,7 +6,7 @@ const Registration = ({ registerRef }) => {
   return (
     <div className={styles.main} ref={registerRef}>
       <Fade type="bottom">
-        <h1 className={styles.heading}>REGISTRATION</h1>
+        <h1 className={styles.heading}>EVENTS</h1>
       </Fade>
 
       <Fade type="bottom">
