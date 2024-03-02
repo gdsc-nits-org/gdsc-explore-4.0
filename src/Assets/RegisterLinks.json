@@ -3,7 +3,7 @@
     "id": "1",
     "heading": "NIT Silchar Events",
     "link": "/registration/nits",
-    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/nits_wbrpgt.jpg"
+    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/nits_wbrpgt.webp"
   },
   {
     "id": "2",
@@ -15,12 +15,18 @@
     "id": "3",
     "heading": "AEC Events",
     "link": "#",
-    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101071/GDSC%20Explore%202023/aec_osrohx.jpg"
+    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101071/GDSC%20Explore%202023/aec_osrohx.webp"
   },
   {
     "id": "4",
     "heading": "CIT Kokrajhar Events",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSevgKlpltyNzvyVP0NTLE-xrpA_9ayFc-sISEtmF1_UBvus4A/viewform?usp=sf_link",
-    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/gu_nfnnrq.avif"
+    "link": "#",
+    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/nits_wbrpgt.webp"
+  },
+  {
+    "id": "5",
+    "heading": "Tezpur University Events",
+    "link": "#",
+    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/nits_wbrpgt.webp"
   }
 ]

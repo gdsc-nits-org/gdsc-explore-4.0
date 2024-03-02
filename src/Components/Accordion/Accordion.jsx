@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FAQData from "./FAQData.json";
+import FAQData from "../../Assets/FAQData.json";
 import style from "./Accordion.module.scss";
 
 const Accordion = () => {

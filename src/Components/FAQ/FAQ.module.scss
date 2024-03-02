@@ -11,12 +11,16 @@
     font-weight: 500;
     transition: color 0.5s;
   }
+  img {
+    margin-top: -4rem;
+  }
 }
 
 @media (max-width: 510px) {
   .FAQ {
     .header {
       font-size: 1.6rem;
+      text-align: center;
     }
   }
 }

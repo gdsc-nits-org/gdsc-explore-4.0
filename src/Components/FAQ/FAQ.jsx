@@ -7,7 +7,7 @@ const FAQ = () => {
   return (
     <div className={style.FAQ}>
       <p className={style.header}>Your Questions, We Answered</p>
-      <img src={FAQgif} alt="" width={300} />
+      <img src={FAQgif} alt="faq" width={300} />
       <Accordion />
     </div>
   );
