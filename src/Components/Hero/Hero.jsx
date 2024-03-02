@@ -88,6 +88,7 @@ const Hero = ({ registerRef, onLoad }) => {
       </div>
       <button
         className={style.scrollbtn}
+        aria-label="scroll down"
         onClick={() => {
           window.scrollTo({ top: homeRef.current.offsetHeight, behavior: "smooth" });
         }}
