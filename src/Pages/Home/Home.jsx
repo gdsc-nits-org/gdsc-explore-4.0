@@ -1,4 +1,4 @@
-import { About, Hero, Registration, GDSCTeam } from "../../Components";
+import { About, Hero, Registration, GDSCTeam, FAQ } from "../../Components";
 
 import style from "./Home.module.scss";
 
@@ -11,6 +11,9 @@ const Home = ({ aboutRef, rulesRef, teamRef, registerRef, onLoad }) => {
       {/* <Speaker /> */}
       <Registration registerRef={registerRef} />
       {/* <Rules rulesRef={rulesRef} /> */}
+
+      <FAQ />
+
       <GDSCTeam teamRef={teamRef} />
     </main>
   );
