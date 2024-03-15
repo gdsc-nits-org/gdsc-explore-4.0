@@ -1,27 +1,46 @@
 [
   {
-    "name": "Assam Engineering College",
-    "img": "/assets/gdsc-team/aec.png",
-    "link": "https://gdsc.community.dev/assam-engineering-college-guwahati/"
+    "name": "Jacob Singh",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    "field" : "UI/UX",
+    "links": {
+      "facebook" : "https://www.facebook.com",
+      "linkedin" : "https://www.linkedin.com",
+      "github" : "https://www.github.com",
+      "twitter" : "https://www.twitter.com"
+    }
   },
   {
-    "name": "National Institute of Technology Silchar",
-    "img": "/assets/gdsc-team/nits.png",
-    "link": "https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
+    "name": "Jacob Singh",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    "field" : "UI/UX",
+    "links": {
+      "facebook" : "https://www.facebook.com",
+      "linkedin" : "https://www.linkedin.com",
+      "github" : "https://www.github.com",
+      "twitter" : "https://www.twitter.com"
+    }
   },
   {
-    "name": "Gauhati University - Guwahati",
-    "img": "/assets/gdsc-team/gu.png",
-    "link": "https://gdsc.community.dev/gauhati-university-guwahati/"
+    "name": "Jacob Singh",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    "field" : "UI/UX",
+    "links": {
+      "facebook" : "https://www.facebook.com",
+      "linkedin" : "https://www.linkedin.com",
+      "github" : "https://www.github.com",
+      "twitter" : "https://www.twitter.com"
+    }
   },
   {
-    "name": "The Assam Kaziranga University - Jorhat",
-    "img": "/assets/gdsc-team/aku.png",
-    "link": "https://gdsc.community.dev/the-assam-kaziranga-university-jorhat/"
-  },
-  {
-    "name": "Jorhat Engineering College",
-    "img": "/assets/gdsc-team/jec.png",
-    "link": "https://gdsc.community.dev/jorhat-engineering-college-jorhat/"
+    "name": "Jacob Singh",
+    "img": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    "field" : "UI/UX",
+    "links": {
+      "facebook" : "https://www.facebook.com",
+      "linkedin" : "https://www.linkedin.com",
+      "github" : "https://www.github.com",
+      "twitter" : "https://www.twitter.com"
+    }
   }
 ]

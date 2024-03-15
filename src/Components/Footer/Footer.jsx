@@ -16,16 +16,25 @@ const Footer = () => {
       <div className={style.links}>
         <h1 className={style.heading}>Follow us on</h1>
         <div className={style.socials}>
-          <a href="https://twitter.com/exploregdsc" target="_blank">
+          <a
+            href="https://twitter.com/exploregdsc"
+            target="_blank"
+            aria-label="twitter link"
+          >
             <AiOutlineTwitter id={style.twitter} />
           </a>
           <a
             href="https://www.youtube.com/channel/UCMLgnvt5f-GPdpj-mwgvbmw"
             target="_blank"
+            aria-label="youtube link"
           >
             <AiFillYoutube id={style.youtube} />
           </a>
-          <a href="https://www.instagram.com/exploregdsc/" target="_blank">
+          <a
+            href="https://www.instagram.com/exploregdsc/"
+            target="_blank"
+            aria-label="instagram link"
+          >
             <AiFillInstagram id={style.instagram} />
           </a>
         </div>

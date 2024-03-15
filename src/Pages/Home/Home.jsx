@@ -1,16 +1,6 @@
-import {
-  About,
-  Rules,
-  Hero,
-  Registration,
-  GDSCTeam,
-  Speaker,
-  Sponsor,
-} from "../../Components";
-
+import { About, Hero, Registration, GDSCTeam, FAQ, Speaker, Rules, Sponsor } from "../../Components";
+import Associations from "../../Assets/Association.json"
 import style from "./Home.module.scss";
-
-import Associations from "../../Assets/Association.json";
 
 const Home = ({ aboutRef, rulesRef, teamRef, registerRef, onLoad }) => {
   return (

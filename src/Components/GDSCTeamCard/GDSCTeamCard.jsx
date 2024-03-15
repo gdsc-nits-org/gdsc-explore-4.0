@@ -19,8 +19,6 @@ const GDSCTeamCard = ({ img, name, fb, github, twitter, linkedin }) => {
           <a href={github} className={styles.icon}><FaGithub /></a>
         </div>
       </div>
-    </>
-  );
-};
-
+    </>);
+}
 export default GDSCTeamCard;
