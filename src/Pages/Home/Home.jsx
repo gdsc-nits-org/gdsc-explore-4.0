@@ -17,10 +17,10 @@ const Home = ({ aboutRef, rulesRef, teamRef, registerRef, onLoad }) => {
     <main className={style.home}>
       <Hero rulesRef={rulesRef} registerRef={registerRef} onLoad={onLoad} />
       <About aboutRef={aboutRef} />
-      <Sponsor title="In Association With" data={Associations} />
       <Speaker />
       <Registration registerRef={registerRef} />
       <Rules rulesRef={rulesRef} />
+      <Sponsor title="Past Sponsor" data={Associations} />
       <GDSCTeam teamRef={teamRef} />
     </main>
   );

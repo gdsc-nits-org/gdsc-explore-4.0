@@ -7,16 +7,31 @@
   height: 10rem;
   box-shadow: 0.125rem 0.125rem 0.95rem var(--gdsc-shadow-1-80);
   border-radius: 0.5rem;
+  animation-name: slide;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
   cursor: pointer;
+
   &:hover {
     transform: scale(1.01);
     transition: all 0.6s;
     box-shadow: 0.125rem 0.125rem 0.95rem var(--gdsc-shadow-1-100);
   }
+
   .sponsor-img {
     width: 80%;
     display: block;
     margin: auto;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-2000px, 0, 0);
   }
 }
 
