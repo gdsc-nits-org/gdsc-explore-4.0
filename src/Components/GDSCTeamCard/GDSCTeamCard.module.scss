@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-position: 200% 200%, -200% 200%, -200% -200%;
   width: 15rem;
-  height: 15rem;
+  height: 18rem;
   box-shadow: 0 0 1rem #828283;
   border: 0px solid transparent;
   display: flex;
@@ -35,7 +35,7 @@
   .card-img {
     scale: 0.8;
     width: 90%;
-    height: 90%;
+    height: 80%;
     object-fit: cover;
     border: 0 solid transparent;
     margin: 0 auto;
@@ -68,7 +68,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #547DBF;
-  padding: 0.2rem;
+  padding: 0.5rem;
   height: 90%;
   transition-duration: 1s;
   opacity: 0;
@@ -78,6 +78,7 @@
 
   .icon {
     color: #ffffff;
+    margin: 1rem 0.02rem;
   }
 }
 

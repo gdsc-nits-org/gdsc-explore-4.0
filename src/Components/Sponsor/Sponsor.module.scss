@@ -13,13 +13,15 @@
     color: var(--gdsc-blue-header);
     margin: 0 0 3rem 0;
   }
+
   .sponsor-list {
     padding: 0 2rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
+
   .tier-break {
     border-top: 0.1rem solid var(--grey-text-1-40);
     opacity: 0.3;
@@ -28,11 +30,9 @@
   }
 }
 
-@media (max-width: 1024px) {
-}
+@media (max-width: 1024px) {}
 
-@media (max-width: 768px) {
-}
+@media (max-width: 768px) {}
 
 @media (max-width: 480px) {
   .sponsor {
