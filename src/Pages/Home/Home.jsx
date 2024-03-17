@@ -7,9 +7,9 @@ const Home = ({ aboutRef, rulesRef, teamRef, registerRef, onLoad }) => {
     <main className={style.home}>
       <Hero rulesRef={rulesRef} registerRef={registerRef} onLoad={onLoad} />
       <About aboutRef={aboutRef} />
-      <Speaker />
+      {/* <Speaker /> */}
       <Registration registerRef={registerRef} />
-      <Rules rulesRef={rulesRef} />
+      {/* <Rules rulesRef={rulesRef} /> */}
       <Sponsor title="Past Sponsor" data={sponsors} />
       <FAQ />
       <GDSCTeam teamRef={teamRef} />
