@@ -77,6 +77,7 @@
     align-items: center;
     justify-content: center;
     top: 50%;
+
     z-index: 12;
     cursor: pointer;
     user-select: none;
@@ -88,12 +89,12 @@
     border-radius: 4rem;
 
     &.left {
-        transform: translateX(-100%) translatey(-50%);
+        transform: translateX(-45%) translatey(-50%);
     }
 
     &.right {
         right: 0;
-        transform: translateX(100%) translatey(-50%);
+        transform: translateX(45%) translatey(-50%);
     }
 }
 
@@ -215,6 +216,7 @@
     gap: 0;
     margin: 2rem;
 }
+
 
 .card {
     background-color: #ffffff;
