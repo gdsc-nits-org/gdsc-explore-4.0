@@ -10,7 +10,7 @@ const Home = ({ aboutRef, rulesRef, teamRef, registerRef, onLoad }) => {
       {/* <Speaker /> */}
       <Registration registerRef={registerRef} />
       {/* <Rules rulesRef={rulesRef} /> */}
-      <Sponsor title="Past Sponsor" data={sponsors} />
+      <Sponsor title="Past Sponsors" data={sponsors} />
       <FAQ />
       <GDSCTeam teamRef={teamRef} />
     </main>

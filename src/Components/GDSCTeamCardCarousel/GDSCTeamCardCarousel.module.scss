@@ -123,17 +123,23 @@
     }
 }
 
+
+// .carousel {
+//     background-color: blue;
+// }
+
 .bubbleCont {
     display: flex;
     flex-direction: row;
     column-gap: 0.1rem;
     position: relative;
-    top: 20rem;
+    top: 18rem;
+    z-index: 6;
 
     .active,
     .inactive {
-        height: 1rem;
-        width: 1rem;
+        height: 0.5rem;
+        width: 0.5rem;
         border: 0px solid transparent;
         border-radius: 1rem;
         background-color: rgba(27, 152, 137, 0.50);
@@ -153,7 +159,7 @@
 
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:710px) {
     .Events {
         display: none;
     }
