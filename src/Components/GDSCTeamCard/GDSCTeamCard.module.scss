@@ -1,145 +1,94 @@
-.cardContainer {
+.cardParent {
+  visibility: visible;
   display: flex;
-  width: 18%;
-  margin: 3rem 3rem;
-  font-family: var(--gdsc-font-1);
-  border-radius: 12px;
-  text-align: center;
-  cursor: default;
-  transition: 800ms;
-  box-shadow: 2px 10px 20px rgb(0 0 0 / 0.1), 2px 6px 6px rgb(0 0 0 / 0.1);
-  .card-img {
-    width: 70%;
-    border-radius: 50%;
-    margin-top: 2rem;
-    transition: 600ms;
-  }
-  .info {
-    margin-top: 0.5rem;
-    margin-bottom: 1.75rem;
-    transition: 600ms;
-  }
-  .field {
-    font-size: 1.125rem;
-  }
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  margin: 2rem;
+}
+
+.card {
+  background: url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721990/GDSC%20images/bg-pattern-bottom-right_bj7izm.svg"), url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721988/GDSC%20images/bg-pattern-bottom-left_doblwp.svg"), url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721982/GDSC%20images/bg-pattern-top-left_xijini.svg");
+  background-repeat: no-repeat;
+  background-position: 200% 200%, -200% 200%, -200% -200%;
+  width: 15rem;
+  height: 18rem;
+  box-shadow: 0 0 1rem #828283;
+  border: 0px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition-duration: 0.5s;
+
   .name {
-    font-size: 1.875rem;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    transition-duration: 0.5s;
   }
-  .links {
-    position: absolute;
-    background-color: #547dbf;
-    color: white;
-    border-radius: 0px 999px 999px 0px;
-    padding-left: 1px;
-    padding-right: 1px;
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
-    transition: 1.2s;
-    animation: fade-out 900ms forwards;
-  }
-  .linksContainer {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  .linkTop {
-    margin-top: 4px;
-    cursor: pointer;
-    font-size: 40px;
 
-    @media screen and (max-width: 1024px) {
-      font-size: 30px;
-    }
-
-    @media screen and (max-width: 380px) {
-      font-size: 25px;
-    }
-  }
-  .link {
-    cursor: pointer;
-    font-size: 40px;
-
-    @media screen and (max-width: 1024px) {
-      font-size: 30px;
-    }
-
-    @media screen and (max-width: 380px) {
-      font-size: 25px;
-    }
-  }
-  &:hover {
-    box-shadow: 2px 2px 3px 3px #a7c3f0;
-    .links {
-      animation: fade-in 700ms forwards;
-    }
-    .card-img {
-      scale: 1.1;
-    }
-    .info {
-      margin-top: 1rem;
-      margin-bottom: 1.25rem;
-    }
-    .topLeft {
-      animation: top-left-ani 700ms forwards;
-    }
+  .card-img {
+    scale: 0.8;
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+    border: 0 solid transparent;
+    margin: 0 auto;
+    border-radius: 100%;
+    transition-duration: 0.5s;
+    z-index: 1;
   }
 }
 
-@keyframes top-left-ani {
-  from {
-    height: 0px;
-    width: 0px;
-    opacity: 0;
-  }
-  to {
-    height: 70px;
-    width: 70px;
-    opacity: 1;
+
+
+.cardParent:hover .card-img {
+  transition-duration: 0.5s;
+  scale: 1.05;
+}
+
+.cardParent:hover .name {
+  font-size: 0.9rem;
+  transition-duration: 0.5s;
+}
+
+.cardParent:hover .card {
+  background-position: 100% 100%, 0% 100%, 0% 0%;
+  transition-duration: 0.5s;
+}
+
+.socialBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #547DBF;
+  padding: 0.5rem;
+  height: 90%;
+  transition-duration: 1s;
+  opacity: 0;
+  border: 0 solid transparent;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+
+  .icon {
+    color: #ffffff;
+    margin: 1rem 0.02rem;
   }
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.cardParent:hover .socialBar {
+  transition-duration: 1s;
+  opacity: 1;
 }
 
-@keyframes fade-out {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@media (max-width: 1024px) {
-  .cardContainer {
-    width: 24%;
-    margin: 2.5rem 1.8rem;
-  }
-}
-
-@media (max-width: 870px) {
-  .cardContainer {
-    width: 30%;
-    margin: 2.5rem 1.8rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .cardContainer {
-    width: 45%;
-    margin: 1rem 0.75rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .cardContainer {
-    width: 70%;
-    margin: 1rem 0;
+@media screen and (max-width:709px) {
+  .cardParent {
+    display: none;
   }
 }

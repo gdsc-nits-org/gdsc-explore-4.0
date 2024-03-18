@@ -1,49 +1,24 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { Icon } from "@iconify/react";
 import styles from "./GDSCTeamCard.module.scss";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
-const GDSCTeamCard = ({ img, name, links, field }) => {
-  function openInNewTab(url) {
-    window.open(url, "_blank").focus();
-  }
-
+const GDSCTeamCard = ({ img, name, fb, github, twitter, linkedin }) => {
   return (
-    <section className={styles.cardContainer}>
-      <div className={styles.card}>
-        <img className={styles["card-img"]} src={img} alt={name} />
-
-        <p className={styles.info}>
-          <h4 className={styles.name}>{name}</h4>
-          <p className={styles.field}>{field}</p>
-        </p>
-      </div>
-
-      <div className={styles.linksContainer}>
-        <div className={styles.links}>
-          <Icon
-            icon="ic:baseline-facebook"
-            className={styles.linkTop}
-            onClick={() => openInNewTab(links.facebook)}
-          />
-          <Icon
-            icon="mdi:linkedin"
-            className={styles.link}
-            onClick={() => openInNewTab(links.linkedin)}
-          />
-          <Icon
-            icon="mdi:github"
-            className={styles.link}
-            onClick={() => openInNewTab(links.github)}
-          />
-          <Icon
-            icon="mdi:twitter"
-            className={styles.link}
-            onClick={() => openInNewTab(links.twitter)}
-          />
+    <>
+      <div className={styles.cardParent}>
+        <div className={styles.card}>
+          <img src={img} alt="Person image" className={styles['card-img']} />
+          <h1 className={styles.name}>{name}</h1>
+        </div>
+        <div className={styles.socialBar}>
+          <a href={twitter} className={styles.icon}><FaXTwitter /></a>
+          <a href={linkedin} className={styles.icon}><FaLinkedinIn /></a>
+          <a href={fb} className={styles.icon}><FaFacebookF /></a>
+          <a href={github} className={styles.icon}><FaGithub /></a>
         </div>
       </div>
-    </section>
-  );
-};
-
+    </>);
+}
 export default GDSCTeamCard;
