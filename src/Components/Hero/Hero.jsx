@@ -101,6 +101,7 @@ const Hero = ({ rulesRef, registerRef, onLoad }) => {
           window.scrollTo({ top: homeRef.current.offsetHeight, behavior: "smooth" });
         }}
       >
+        TEST
         <Fade type="bottom">
           <Lottie options={scrollLottieOptions} height={50} width={50} />
         </Fade>
