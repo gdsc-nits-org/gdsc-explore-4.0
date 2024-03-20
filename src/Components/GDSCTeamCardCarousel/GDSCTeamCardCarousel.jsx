@@ -33,12 +33,13 @@ const Carousel = () => {
                             <div className={styles.card}>
                                 <img src={d.img} alt="Person image" className={styles['card-img']} />
                                 <h1 className={styles.name} style={{ color: '#000000' }}>{d.name}</h1>
+                                <h2 className={styles.name} style={{ color: '#000000' }}>{d.role}</h2>
                             </div>
                             <div className={styles.socialBar}>
-                                <a href={d.twitter} className={styles.icon}><FaXTwitter /></a>
-                                <a href={d.linkedin} className={styles.icon}><FaLinkedinIn /></a>
-                                <a href={d.fb} className={styles.icon}><FaFacebookF /></a>
-                                <a href={d.github} className={styles.icon}><FaGithub /></a>
+                                {d.twitter !== "" ? <a href={d.twitter} className={styles.icon}><FaXTwitter /></a> : null}
+                                {d.linkedin !== "" ? <a href={d.linkedin} className={styles.icon}><FaLinkedinIn /></a> : null}
+                                {d.fb !== "" ? <a href={d.fb} className={styles.icon}><FaFacebookF /></a> : null}
+                                {d.github !== "" ? <a href={d.github} className={styles.icon}><FaGithub /></a> : null}
                             </div>
                         </div>
                     </div>
