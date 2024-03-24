@@ -1,11 +1,11 @@
-import styles from './GDSCTeamCardCarousel.module.scss'
 import React, { useState } from "react";
-import GDSCTeamCard from "../GDSCTeamCard/GDSCTeamCard"
-import data from "../../Assets/GDSCPersons.json";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn , FaFacebookF , FaGithub } from "react-icons/fa";
+
+
+import data from "../../Assets/GDSCPersons.json";
+import GDSCTeamCard from "../GDSCTeamCard/GDSCTeamCard"
+import styles from './GDSCTeamCardCarousel.module.scss'
 
 
 const CARDS = 8;
@@ -19,7 +19,8 @@ const Carousel = () => {
             <div className={styles.carousel}>
                 {active > 0 && <button className={`${styles.nav} ${styles.left}`} onClick={() => setActive(i => i - 1)}>&lt;</button>}
                 {data.map((d, i) => (
-                    <div className={styles.cardContainer} style={{
+                    <div
+className={styles.cardContainer} style={{
                         '--active': i === active ? 1 : 0,
                         '--offset': (active - i) / 3,
                         '--direction': Math.sign(active - i),
