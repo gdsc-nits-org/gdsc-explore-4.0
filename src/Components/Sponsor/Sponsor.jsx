@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import SponsorCard from "../SponsorCard/SponsorCard";
-
 import styles from "./Sponsor.module.scss";
 
 const Sponsor = ({ title, data }) => {

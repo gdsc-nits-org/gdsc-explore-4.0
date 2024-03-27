@@ -1,14 +1,9 @@
 import styles from './GDSCTeamCardCarousel.module.scss'
-import React, { useState } from "react";
-import GDSCTeamCard from "../GDSCTeamCard/GDSCTeamCard"
+import { useState } from "react";
 import data from "../../Assets/GDSCPersons.json";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 
-
-const CARDS = 8;
 const MAX_VISIBILITY = 3;
 
 const Carousel = () => {
@@ -31,7 +26,7 @@ const Carousel = () => {
                     }}>
                         <div className={styles.cardParent}>
                             <div className={styles.card}>
-                                <img src={d.img} alt="Person image" className={styles['card-img']} />
+                                <img src={d.img} alt="Developer" className={styles['card-img']} />
                                 <h1 className={styles.name} style={{ color: '#000000' }}>{d.name}</h1>
                             </div>
                             <div className={styles.socialBar}>

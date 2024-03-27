@@ -9,7 +9,7 @@ import vectorGDSCIcon from "../../Assets/images/gdsc-icon.png";
 
 const Footer = () => {
   return (
-    <>
+    <div className={style.fcontainer}>
       <footer className={style.footer}>
         <Vector className={style.vector} vectorSrc={vectorIconLeft} />
 
@@ -56,7 +56,7 @@ const Footer = () => {
       </footer>
 
       <p className={style.copyright}>Copyright © 2024. All Rights Reserved</p>
-    </>
+    </div>
   );
 };
 
