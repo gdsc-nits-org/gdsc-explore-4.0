@@ -1,8 +1,9 @@
 .main {
   font-family: var(--gdsc-font-1);
-  width: 100%;
+  width: 80%;
   height: fit-content;
   text-align: center;
+  margin: auto;
 
   .heading {
     color: #355385;
@@ -20,13 +21,13 @@
   flex-wrap: wrap;
   .card {
     border-radius: 6px;
-    width: 17%;
+    width: 25%;
     position: relative;
     display: flex;
     justify-content: space-evenly;
     align-items: end;
     margin: 0.5rem 0.8rem;
-    aspect-ratio: 240/425;
+    aspect-ratio: 80/100;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
