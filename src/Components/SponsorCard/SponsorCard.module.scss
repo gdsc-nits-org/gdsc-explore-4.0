@@ -4,8 +4,7 @@
   align-items: center;
   margin: 1rem 2rem;
   width: 20%;
-  // height: 10rem;
-  height: 16rem;
+  height: 12rem;
   box-shadow: 0.125rem 0.125rem 0.95rem var(--gdsc-shadow-1-80);
   border-radius: 0.5rem;
   animation-name: slide;
@@ -46,6 +45,12 @@
 
     100% {
       transform: translate3d(-500px, 0, 0);
+    }
+  }
+  .card{
+    height: 15rem;
+    .sponsor-img{
+      height: 90%;
     }
   }
 }

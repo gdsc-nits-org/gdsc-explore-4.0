@@ -1,3 +1,7 @@
+.fcontainer{
+  box-shadow: 0 1px 5px 2px #bababa;
+
+}
 .footer {
   display: flex;
   justify-content: space-evenly;
@@ -8,12 +12,20 @@
 .iconContainer {
   display: flex;
   gap: 1.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #111;
 }
 
 .gdscContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  a {
+    text-decoration: none;
+    color: #111;
+  }
 }
 
 .copyright {
@@ -25,12 +37,38 @@
   display: block;
 }
 
+.iconMblContainer {
+  display: none;
+}
+
+.icon {
+  color: #111;
+}
+
 @media screen and (max-width: 768px) {
   .VectorContainer {
     display: block;
   }
+
   .displayImg {
     display: none;
     background-color: black;
+  }
+
+  .iconContainer {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .iconMblContainer {
+    display: flex;
+    font-size: 1.5rem;
+    cursor: pointer;
+    gap: 0.5rem;
+    color: #111;
   }
 }

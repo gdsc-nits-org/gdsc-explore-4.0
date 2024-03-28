@@ -65,7 +65,7 @@ const Hero = ({ registerRef, onLoad }) => {
           <h2>Explore the Developers from the Northeast</h2>
           <p className={`${style.fadeIn1} ${style.show1}`}>
             <img src="/assets/images/clock.svg" alt="timer" />
-            From 29th March to 31st Mar 2024
+            From 5th April to 7th April 2024
           </p>
           <div className={style.btn}>
             <Button
