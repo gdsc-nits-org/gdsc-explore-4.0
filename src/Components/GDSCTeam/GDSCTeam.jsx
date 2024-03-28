@@ -17,7 +17,7 @@ const Team = ({ teamRef }) => {
         <Fade type="bottom">
           <div className={styles["team-list"]}>
             {data.map((d) => (
-              <GDSCTeamCard key={d.name} img={d.img} name={d.name} fb={d.fb} linkedin={d.linkedin} twitter={d.twitter} github={d.github} />
+              <GDSCTeamCard key={d.name} img={d.img} name={d.name} fb={d.fb} linkedin={d.linkedin} twitter={d.twitter} github={d.github} role={d.role} />
             ))}
           </div>
         </Fade>
