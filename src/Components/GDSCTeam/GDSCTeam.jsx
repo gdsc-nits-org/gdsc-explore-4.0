@@ -10,7 +10,7 @@ const Team = ({ teamRef }) => {
     <section className={styles.team} ref={teamRef}>
       <Fade type="bottom">
         <h1 className={styles["team-heading"]}>
-          OUR<span className={styles.small}></span> DEVELOPERS
+         OUR<span className={styles.small}></span> DEVELOPERS
         </h1>
       </Fade>
       <div className={styles.teamCont}>

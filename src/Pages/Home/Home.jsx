@@ -1,5 +1,5 @@
-import { About, Hero, Registration, GDSCTeam, FAQ, Speaker, Rules, Sponsor } from "../../Components";
-import sponsors from "../../Assets/Sponsors.json"
+import { About, Hero, Registration, GDSCTeam, FAQ, Sponsor } from "../../Components";
+import sponsors from "../../Assets/Sponsors.json";
 import style from "./Home.module.scss";
 
 const Home = ({ aboutRef, rulesRef, teamRef, registerRef, onLoad }) => {
@@ -7,9 +7,7 @@ const Home = ({ aboutRef, rulesRef, teamRef, registerRef, onLoad }) => {
     <main className={style.home}>
       <Hero rulesRef={rulesRef} registerRef={registerRef} onLoad={onLoad} />
       <About aboutRef={aboutRef} />
-      {/* <Speaker /> */}
       <Registration registerRef={registerRef} />
-      {/* <Rules rulesRef={rulesRef} /> */}
       <Sponsor title="Past Sponsors" data={sponsors} />
       <FAQ />
       <GDSCTeam teamRef={teamRef} />

@@ -9,8 +9,12 @@
 
   .team-heading {
     color: #355385;
-    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
     font-weight: 600;
+    @media screen and (max-width: 650px) {
+      margin-top: 2rem;
+      font-size: var(--gdsc-explore-heading-size-mobile);
+    }
   }
 
   .team-list {

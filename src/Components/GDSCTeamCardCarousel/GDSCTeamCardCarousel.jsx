@@ -1,14 +1,12 @@
-import React, { useState } from "react";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedinIn , FaFacebookF , FaGithub } from "react-icons/fa";
-
-
-import data from "../../Assets/GDSCPersons.json";
-import GDSCTeamCard from "../GDSCTeamCard/GDSCTeamCard"
 import styles from './GDSCTeamCardCarousel.module.scss'
+import React, { useState } from "react";
+import data from "../../Assets/GDSCPersons.json";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 
-const CARDS = 8;
 const MAX_VISIBILITY = 3;
 
 const Carousel = () => {
@@ -20,19 +18,19 @@ const Carousel = () => {
                 {active > 0 && <button className={`${styles.nav} ${styles.left}`} onClick={() => setActive(i => i - 1)}>&lt;</button>}
                 {data.map((d, i) => (
                     <div
-className={styles.cardContainer} style={{
-                        '--active': i === active ? 1 : 0,
-                        '--offset': (active - i) / 3,
-                        '--direction': Math.sign(active - i),
-                        '--abs-offset': Math.abs(active - i) / 3,
-                        'pointer-events': active === i ? 'auto' : 'none',
-                        'opacity': Math.abs(active - i) >= MAX_VISIBILITY ? '0' : '1',
-                        'display': Math.abs(active - i) > MAX_VISIBILITY ? 'none' : 'block',
-                        zIndex: `${i === active ? 5 : 0}`,
-                    }}>
+                        className={styles.cardContainer} style={{
+                            '--active': i === active ? 1 : 0,
+                            '--offset': (active - i) / 3,
+                            '--direction': Math.sign(active - i),
+                            '--abs-offset': Math.abs(active - i) / 3,
+                            'pointer-events': active === i ? 'auto' : 'none',
+                            'opacity': Math.abs(active - i) >= MAX_VISIBILITY ? '0' : '1',
+                            'display': Math.abs(active - i) > MAX_VISIBILITY ? 'none' : 'block',
+                            zIndex: `${i === active ? 5 : 0}`,
+                        }}>
                         <div className={styles.cardParent}>
                             <div className={styles.card}>
-                                <img src={d.img} alt="Person image" className={styles['card-img']} />
+                                <img src={d.img} alt="Developer" className={styles['card-img']} />
                                 <h1 className={styles.name} style={{ color: '#000000' }}>{d.name}</h1>
                                 <h2 className={styles.name} style={{ color: '#000000' }}>{d.role}</h2>
                             </div>
