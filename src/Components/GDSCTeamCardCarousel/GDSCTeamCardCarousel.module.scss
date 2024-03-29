@@ -2,7 +2,7 @@
     visibility: visible;
     margin: 0 auto;
     width: 15rem;
-    height: 20rem;
+    height: 24rem;
     /* perspective: 500px; */
     transform-style: preserve-3d;
 }
@@ -134,7 +134,7 @@
     flex-direction: row;
     column-gap: 0.1rem;
     position: relative;
-    top: 18rem;
+    top: 22rem;
     z-index: 6;
 
     .active,
@@ -224,7 +224,7 @@
     background-repeat: no-repeat;
     background-position: 200% 200%, -200% 200%, -200% -200%;
     width: 15rem;
-    height: 15rem;
+    height: 18rem;
     box-shadow: 0 0 1rem #828283;
     border: 0px solid transparent;
     display: flex;
