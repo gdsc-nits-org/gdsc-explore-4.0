@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn, FaFacebookF, FaYoutube } from "react-icons/fa";
 import style from "./Footer.module.scss";
 import Vector from "../BlueVector/Vector";
 import vectorIconLeft from "../../Assets/images/vector-left.png";
 import vectorIconRight from "../../Assets/images/vector-right.png";
 import Icon from "../Icons/Icon";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedinIn, FaFacebookF, FaYoutube } from "react-icons/fa";
 import vectorGDSCIcon from "../../Assets/images/gdsc-icon.png";
 
 const Footer = () => {
@@ -14,42 +15,68 @@ const Footer = () => {
         <Vector className={style.vector} vectorSrc={vectorIconLeft} />
 
         <div className={style.iconContainer}>
-          <a className={style.icon} href="#">
+          <Link className={style.icon} target="_blank" to="https://twitter.com/gdscnits">
             <FaXTwitter />
-          </a>
-          <a className={style.icon} href="#">
+          </Link>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.linkedin.com/company/gdscnits/mycompany/"
+          >
             <FaLinkedinIn />
-          </a>
+          </Link>
         </div>
 
         <div className={style.gdscContainer}>
           <Icon iconSrc={vectorGDSCIcon} />
           <h2>GDSC Explore</h2>
           <p>Email us at </p>
-          <a href="mailto:gdsc@nits.ac.in">exploregdsc@gmail.com</a>
+          <a href="mailto:gdsc@nits.ac.in" target="_blank">
+            exploregdsc@gmail.com
+          </a>
         </div>
         <div className={style.iconMblContainer}>
-          <a className={style.icon} href="#">
+          <Link className={style.icon} target="_blank" to="https://twitter.com/gdscnits">
             <FaXTwitter />
-          </a>
-          <a className={style.icon} href="#">
+          </Link>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.linkedin.com/company/gdscnits/mycompany/"
+          >
             <FaLinkedinIn />
-          </a>
-          <a className={style.icon} href="#">
+          </Link>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.facebook.com/gdscnits/"
+          >
             <FaFacebookF />
-          </a>
-          <a className={style.icon} href="#">
+          </Link>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.youtube.com/@gdscnits"
+          >
             <FaYoutube />
-          </a>
+          </Link>
         </div>
 
         <div className={style.iconContainer}>
-          <a className={style.icon} href="#">
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.facebook.com/gdscnits/"
+          >
             <FaFacebookF />
-          </a>
-          <a className={style.icon} href="#">
+          </Link>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.youtube.com/@gdscnits"
+          >
             <FaYoutube />
-          </a>
+          </Link>
         </div>
 
         <Vector className={style.vector} vectorSrc={vectorIconRight} />

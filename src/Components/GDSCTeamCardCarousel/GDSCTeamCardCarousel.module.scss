@@ -2,23 +2,22 @@
     visibility: visible;
     margin: 0 auto;
     width: 15rem;
-    height: 24rem;
+    height: 20rem;
     /* perspective: 500px; */
     transform-style: preserve-3d;
 }
 
-@media screen and (min-width:350px) {
+@media screen and (min-width: 350px) {
     .Events {
         width: 17rem;
     }
 }
 
-@media screen and (min-width:380px) {
+@media screen and (min-width: 380px) {
     .Events {
         width: 20rem;
     }
 }
-
 
 .cardContainer {
     position: absolute;
@@ -29,8 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transform:
-        scaleY(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateX(calc(var(--direction) * -1rem));
+    transform: scaleY(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateX(calc(var(--direction) * -1rem));
     filter: blur(calc(var(--abs-offset) * 1rem));
     transition: all 0.3s ease-out;
 }
@@ -61,7 +59,7 @@
     }
 
     .p {
-        color: #1B9889;
+        color: #1b9889;
     }
 
     .details {
@@ -107,23 +105,22 @@
     font-size: 0rem;
 
     .rocket {
-        color: #1B9889;
+        color: #1b9889;
         background-color: transparent;
         transition-duration: 0.5s;
         padding: 0.25rem;
         padding-left: 0.75rem;
         padding-right: 0.75rem;
-        border: 3px solid #1B9889;
+        border: 3px solid #1b9889;
         border-radius: 0.75rem;
     }
 
     .rocket:hover {
         color: #ffffff;
-        background-color: #1B9889;
+        background-color: #1b9889;
         transition-duration: 0.5s;
     }
 }
-
 
 // .carousel {
 //     background-color: blue;
@@ -143,31 +140,28 @@
         width: 0.5rem;
         border: 0px solid transparent;
         border-radius: 1rem;
-        background-color: rgba(27, 152, 137, 0.50);
+        background-color: rgba(27, 152, 137, 0.5);
         transition-duration: 0.5s;
     }
 
     .active {
-        background-color: #1B9889;
+        background-color: #1b9889;
     }
 }
 
-@media screen and (min-width:400px) {
+@media screen and (min-width: 400px) {
     .cardContainer {
-        transform:
-            scaleY(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateX(calc(var(--direction) * -4rem));
+        transform: scaleY(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateX(calc(var(--direction) * -4rem));
     }
-
 }
 
-@media screen and (min-width:710px) {
+@media screen and (min-width: 710px) {
     .Events {
         display: none;
     }
 
     .cardContainer {
-        transform:
-            scaleY(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateX(calc(var(--direction) * -5rem));
+        transform: scaleY(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateX(calc(var(--direction) * -5rem));
     }
 
     .bubbleCont {
@@ -183,29 +177,21 @@
             width: 0.5rem;
             border: 0px solid transparent;
             border-radius: 1.25rem;
-            background-color: rgba(27, 152, 137, 0.50);
+            background-color: rgba(27, 152, 137, 0.5);
         }
 
         .active {
-            background-color: #1B9889;
+            background-color: #1b9889;
         }
     }
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width: 1000px) {
     .Events {
         width: 28rem;
         height: 28rem;
     }
-
-
 }
-
-
-
-
-
-
 
 .cardParent {
     visibility: visible;
@@ -217,12 +203,16 @@
     margin: 2rem;
 }
 
-
 .card {
     background-color: #ffffff;
-    background-image: url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721990/GDSC%20images/bg-pattern-bottom-right_bj7izm.svg"), url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721988/GDSC%20images/bg-pattern-bottom-left_doblwp.svg"), url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721982/GDSC%20images/bg-pattern-top-left_xijini.svg");
+    background-image: url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721990/GDSC%20images/bg-pattern-bottom-right_bj7izm.svg"),
+        url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721988/GDSC%20images/bg-pattern-bottom-left_doblwp.svg"),
+        url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721982/GDSC%20images/bg-pattern-top-left_xijini.svg");
     background-repeat: no-repeat;
-    background-position: 200% 200%, -200% 200%, -200% -200%;
+    background-position:
+        200% 200%,
+        -200% 200%,
+        -200% -200%;
     width: 15rem;
     height: 18rem;
     box-shadow: 0 0 1rem #828283;
@@ -257,8 +247,6 @@
     }
 }
 
-
-
 .cardParent:hover .card-img {
     transition-duration: 0.5s;
     scale: 1.05;
@@ -270,7 +258,10 @@
 }
 
 .cardParent:hover .card {
-    background-position: 100% 100%, 0% 100%, 0% 0%;
+    background-position:
+        100% 100%,
+        0% 100%,
+        0% 0%;
     transition-duration: 0.5s;
 }
 
@@ -279,7 +270,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #547DBF;
+    background-color: #547dbf;
     padding: 0.2rem;
     height: 90%;
     transition-duration: 1s;
@@ -298,8 +289,6 @@
     transition-duration: 1s;
     opacity: 1;
 }
-
-
 
 // @media screen and (max-width:500px) {
 //     .cardParent {

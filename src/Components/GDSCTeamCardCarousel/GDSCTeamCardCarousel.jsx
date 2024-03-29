@@ -1,10 +1,9 @@
-import styles from './GDSCTeamCardCarousel.module.scss'
 import React, { useState } from "react";
-import data from "../../Assets/GDSCPersons.json";
+import { Link } from "react-router-dom";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebookF, FaGithub } from "react-icons/fa";
+import styles from "./GDSCTeamCardCarousel.module.scss";
+import data from "../../Assets/GDSCPersons.json";
 
 
 const MAX_VISIBILITY = 3;
@@ -61,5 +60,5 @@ const GDSCTeamCardCarousel = () => {
             <Carousel />
         </div>
     );
-}
+};
 export default GDSCTeamCardCarousel;

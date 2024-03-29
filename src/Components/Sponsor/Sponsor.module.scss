@@ -83,11 +83,24 @@
 
   @keyframes marquee {
     0% {
-      transform: translateX(0);
+      transform: translateX(0%);
     }
 
     100% {
-      transform: translate(-50%);
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {
+  .sponsor {
+    .sponsor-heading {
+      margin: 0 0 1.5rem 0;
+      font-size: var(--gdsc-explore-heading-size-mobile);
     }
   }
 }
