@@ -10,7 +10,7 @@ import { FaGithub } from "react-icons/fa";
 const MAX_VISIBILITY = 3;
 
 const Carousel = () => {
-    const [active, setActive] = useState(2);
+    const [active, setActive] = useState(0);
     const count = data.length;
     return (
         <div className={styles.carouselCont}>
