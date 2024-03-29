@@ -1,9 +1,10 @@
 import styles from "./SponsorCard.module.scss";
 
-const SponsorCard = ({ logo, name }) => {
+const SponsorCard = ({ key, logo, name }) => {
   return (
-    <div className={styles.card}>
-      <img className={styles["sponsor-img"]} src={logo} alt={name} />
+    <div key={key} className={styles.cardHolder}>
+      <div className={styles.card} style={{ backgroundImage: `url('${logo}')` }}>
+      </div>
     </div>
   );
 };
