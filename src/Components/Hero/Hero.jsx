@@ -80,6 +80,17 @@ const Hero = ({ registerRef, onLoad }) => {
             >
               Register
             </Button>
+            <Button
+              primary
+              size={isMobile ? "medium" : "large"}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1w1Fk4prs8Hl-lFKBVqJYG8r4AKNoDbZt/view"
+                );
+              }}
+            >
+              Brochure
+            </Button>
           </div>
         </Fade>
       </div>

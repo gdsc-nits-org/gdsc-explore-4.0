@@ -1,65 +1,65 @@
 [
-    {
-        "img": "https://res.cloudinary.com/dfa0k8sry/image/upload/v1706212091/IMG_20240121_230459_-_Bijay_Jiwrajka_w6vif9.webp",
-        "name": "Bijay Jiwrajka",
-        "role": "Developer",
-        "fb": "https://www.facebook.com/bijay.jiwrajka.1",
-        "linkedin": "https://www.linkedin.com/in/bijay-jiwrajka-6b308a225/",
-        "twitter": "https://twitter.com/bj_jiwrajka",
-        "github": "https://github.com/bj-jiwrajka"
-    },
-    {
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017407/gdsc%20seniors/team_pics/AdhirajDutta_oe0c3l.jpg",
-        "name": "Adhiraj Dutta",
-        "role": "Developer",
-        "fb": "https://www.facebook.com/byte.head.12",
-        "linkedin": "https://www.linkedin.com/in/byt3h3ad",
-        "twitter": "",
-        "github": "https://github.com/byt3h3ad"
-    },
-    {
-        "img": "https://res.cloudinary.com/dhv57hycq/image/upload/v1710925173/gdsc_dp_aaphdv.png",
-        "name": "Arfan Mashood Ahmed",
-        "role": "Developer",
-        "fb": "",
-        "linkedin": "https://www.linkedin.com/in/arfan-ahmed137/",
-        "twitter": "",
-        "github": "https://github.com/Pseud0-space"
-    },
-    {
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827561/GDSC%20images/my_photo_-_ECE_025_BARNIL_SARMA_txxw6i.webp",
-        "name": "Barnil Sarma",
-        "role": "Developer",
-        "fb": "https://www.facebook.com/profile.php/?id=100056956539956&name=xhp_nt__fb__action__open_user",
-        "linkedin": "https://www.linkedin.com/in/barnil-sarma-34383a255?trk=contact-info",
-        "twitter": "https://twitter.com/SarmaBarnil",
-        "github": "https://github.com/barnilsarma"
-    },
-    {
-        "img": "https://res.cloudinary.com/dyn3q57b8/image/upload/f_auto,q_auto/v1/images/smvec3gpkdjswecsjkyg",
-        "name": "Aryan Hazarika",
-        "role": "Developer",
-        "fb": "",
-        "linkedin": "https://www.linkedin.com/in/aryan-hazarika/",
-        "twitter": "https://twitter.com/aryan_hazarika_",
-        "github": "https://github.com/aryanh0911"
-    },
-    {
-        "img": "https://res.cloudinary.com/dhoi8bcqz/image/upload/v1709297688/me_rfyqom.webp",
-        "name": "Jacinth Mahanta",
-        "role": "UI/UX",
-        "fb": "https://www.facebook.com/jacinth.mahanta",
-        "linkedin": "https://www.linkedin.com/in/gitsentinel/",
-        "twitter": "https://twitter.com/MahantaJacinth",
-        "github": "https://github.com/GitSentinel"
-    },
-    {
-        "img": "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/zqdgu0quh06mii9xxigg",
-        "name": "Arpit",
-        "role": "UI/UX",
-        "fb": "https://www.facebook.com/profile.php?id=100069356987625&mibextid=ZbWKwL",
-        "linkedin": "https://www.linkedin.com/in/arpit1618",
-        "twitter": "https://x.com/ARgod_7",
-        "github": "https://www.github.com/in/ARgod7"
-    }
+  {
+    "img": "https://res.cloudinary.com/dfa0k8sry/image/upload/v1706212091/IMG_20240121_230459_-_Bijay_Jiwrajka_w6vif9.webp",
+    "name": "Bijay Jiwrajka",
+    "role": "Developer",
+    "fb": "https://www.facebook.com/bijay.jiwrajka.1",
+    "linkedin": "https://www.linkedin.com/in/bijay-jiwrajka-6b308a225/",
+    "twitter": "https://twitter.com/bj_jiwrajka",
+    "github": "https://github.com/bj-jiwrajka"
+  },
+  {
+    "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017407/gdsc%20seniors/team_pics/AdhirajDutta_oe0c3l.jpg",
+    "name": "Adhiraj Dutta",
+    "role": "Developer",
+    "fb": "https://www.facebook.com/byt3h3ad",
+    "linkedin": "https://www.linkedin.com/in/byt3h3ad",
+    "twitter": "https://twitter.com/byt3h3ad",
+    "github": "https://github.com/byt3h3ad"
+  },
+  {
+    "img": "https://res.cloudinary.com/dhv57hycq/image/upload/v1710925173/gdsc_dp_aaphdv.png",
+    "name": "Arfan Mashood Ahmed",
+    "role": "Developer",
+    "fb": "",
+    "linkedin": "https://www.linkedin.com/in/arfan-ahmed137/",
+    "twitter": "",
+    "github": "https://github.com/Pseud0-space"
+  },
+  {
+    "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827561/GDSC%20images/my_photo_-_ECE_025_BARNIL_SARMA_txxw6i.webp",
+    "name": "Barnil Sarma",
+    "role": "Developer",
+    "fb": "https://www.facebook.com/profile.php/?id=100056956539956&name=xhp_nt__fb__action__open_user",
+    "linkedin": "https://www.linkedin.com/in/barnil-sarma-34383a255?trk=contact-info",
+    "twitter": "https://twitter.com/SarmaBarnil",
+    "github": "https://github.com/barnilsarma"
+  },
+  {
+    "img": "https://res.cloudinary.com/dyn3q57b8/image/upload/f_auto,q_auto/v1/images/smvec3gpkdjswecsjkyg",
+    "name": "Aryan Hazarika",
+    "role": "Developer",
+    "fb": "",
+    "linkedin": "https://www.linkedin.com/in/aryan-hazarika/",
+    "twitter": "https://twitter.com/aryan_hazarika_",
+    "github": "https://github.com/aryanh0911"
+  },
+  {
+    "img": "https://res.cloudinary.com/dhoi8bcqz/image/upload/v1709297688/me_rfyqom.webp",
+    "name": "Jacinth Mahanta",
+    "role": "UI/UX",
+    "fb": "https://www.facebook.com/jacinth.mahanta",
+    "linkedin": "https://www.linkedin.com/in/gitsentinel/",
+    "twitter": "https://twitter.com/MahantaJacinth",
+    "github": "https://github.com/GitSentinel"
+  },
+  {
+    "img": "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/zqdgu0quh06mii9xxigg",
+    "name": "Arpit",
+    "role": "UI/UX",
+    "fb": "https://www.facebook.com/profile.php?id=100069356987625&mibextid=ZbWKwL",
+    "linkedin": "https://www.linkedin.com/in/arpit1618",
+    "twitter": "https://x.com/ARgod_7",
+    "github": "https://www.github.com/in/ARgod7"
+  }
 ]

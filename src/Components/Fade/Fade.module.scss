@@ -1,44 +1,44 @@
 .left {
-    transform: translateX(-10rem);
-    transition: 1s;
-    opacity: 0;
+  transform: translateX(-10rem);
+  transition: 1s;
+  opacity: 0;
 }
 
 .left.show {
-    transform: translateX(0);
-    opacity: 1;
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .right {
-    transform: translateX(10rem);
-    transition: 1s;
-    opacity: 0;
+  transform: translateX(10rem);
+  transition: 1s;
+  opacity: 0;
 }
 
 .right.show {
-    transform: translateX(0);
-    opacity: 1;
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .bottom {
-    opacity: 0;
+  opacity: 0;
 }
 
 .bottom.show {
-    animation: bottomAnimate 0.7s ease-in-out forwards;
+  animation: bottomAnimate 0.7s ease-in-out forwards;
 }
 
 @keyframes bottomAnimate {
-    0% {
-        transform: translateY(10rem);
-    }
+  0% {
+    transform: translateY(10rem);
+  }
 
-    45% {
-        opacity: 0.2;
-    }
+  45% {
+    opacity: 0.2;
+  }
 
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

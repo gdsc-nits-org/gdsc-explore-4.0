@@ -2,7 +2,12 @@
   height: fit-content;
   padding: 1vw 0;
   margin-bottom: 3rem;
-  background: linear-gradient(89.96deg, rgba(255, 255, 255, 0) 0.53%, rgba(1, 118, 250, 0.08) 48.5%, rgba(255, 255, 255, 0) 99.97%);
+  background: linear-gradient(
+    89.96deg,
+    rgba(255, 255, 255, 0) 0.53%,
+    rgba(1, 118, 250, 0.08) 48.5%,
+    rgba(255, 255, 255, 0) 99.97%
+  );
   overflow-x: hidden;
 
   .sponsor-heading {
@@ -31,9 +36,11 @@
   }
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
 @media (max-width: 480px) {
   .sponsor {

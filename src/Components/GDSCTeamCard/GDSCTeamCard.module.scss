@@ -9,9 +9,14 @@
 }
 
 .card {
-  background: url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721990/GDSC%20images/bg-pattern-bottom-right_bj7izm.svg"), url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721988/GDSC%20images/bg-pattern-bottom-left_doblwp.svg"), url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721982/GDSC%20images/bg-pattern-top-left_xijini.svg");
+  background: url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721990/GDSC%20images/bg-pattern-bottom-right_bj7izm.svg"),
+    url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721988/GDSC%20images/bg-pattern-bottom-left_doblwp.svg"),
+    url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721982/GDSC%20images/bg-pattern-top-left_xijini.svg");
   background-repeat: no-repeat;
-  background-position: 200% 200%, -200% 200%, -200% -200%;
+  background-position:
+    200% 200%,
+    -200% 200%,
+    -200% -200%;
   width: 15rem;
   height: 18rem;
   box-shadow: 0 0 1rem #828283;
@@ -45,8 +50,6 @@
   }
 }
 
-
-
 .cardParent:hover .card-img {
   transition-duration: 0.5s;
   scale: 1.05;
@@ -58,7 +61,10 @@
 }
 
 .cardParent:hover .card {
-  background-position: 100% 100%, 0% 100%, 0% 0%;
+  background-position:
+    100% 100%,
+    0% 100%,
+    0% 0%;
   transition-duration: 0.5s;
 }
 
@@ -67,7 +73,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #547DBF;
+  background-color: #547dbf;
   padding: 0.5rem;
   height: 90%;
   transition-duration: 1s;
@@ -87,7 +93,7 @@
   opacity: 1;
 }
 
-@media screen and (max-width:709px) {
+@media screen and (max-width: 709px) {
   .cardParent {
     display: none;
   }
