@@ -1,8 +1,7 @@
-import { Fragment } from "react";
 import SponsorCard from "../SponsorCard/SponsorCard";
 import styles from "./Sponsor.module.scss";
 
-const Sponsor = ({ title, data }) => {
+const Sponsor = ({ title }) => {
   return (
     // <section className={styles.sponsor}>
     //   <h1 className={styles["sponsor-heading"]}>{title || "Sponsors"}</h1>
@@ -20,10 +19,8 @@ const Sponsor = ({ title, data }) => {
     //   ))}
     // </section>
     <div className={styles.mainCont}>
-      <div className={styles['sponsor-heading']}>
-        {title}
-      </div>
-      <div className={styles["Marquee"]}>
+      <div className={styles["sponsor-heading"]}>{title}</div>
+      <div className={styles.Marquee}>
         <div className={styles["Marquee-content"]}>
           <div className={styles["Marquee-tag"]}>
             <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
@@ -32,7 +29,10 @@ const Sponsor = ({ title, data }) => {
             <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
           </div>
           <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
+            <SponsorCard
+              name="INTERVIEW BUDDY LOGO"
+              logo="/assets/sponsors/interviewbuddy.png"
+            />
           </div>
           <div className={styles["Marquee-tag"]}>
             <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
@@ -41,7 +41,10 @@ const Sponsor = ({ title, data }) => {
             <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
           </div>
           <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
+            <SponsorCard
+              name="INTERVIEW BUDDY LOGO"
+              logo="/assets/sponsors/interviewbuddy.png"
+            />
           </div>
           <div className={styles["Marquee-tag"]}>
             <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
@@ -50,7 +53,10 @@ const Sponsor = ({ title, data }) => {
             <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
           </div>
           <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
+            <SponsorCard
+              name="INTERVIEW BUDDY LOGO"
+              logo="/assets/sponsors/interviewbuddy.png"
+            />
           </div>
           <div className={styles["Marquee-tag"]}>
             <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
@@ -59,7 +65,10 @@ const Sponsor = ({ title, data }) => {
             <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
           </div>
           <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
+            <SponsorCard
+              name="INTERVIEW BUDDY LOGO"
+              logo="/assets/sponsors/interviewbuddy.png"
+            />
           </div>
         </div>
       </div>

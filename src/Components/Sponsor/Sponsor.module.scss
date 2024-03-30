@@ -54,9 +54,13 @@
 //   }
 // }
 
-
 .Marquee {
-  background: linear-gradient(89.96deg, rgba(255, 255, 255, 0) 0.53%, rgba(1, 118, 250, 0.08) 48.5%, rgba(255, 255, 255, 0) 99.97%);
+  background: linear-gradient(
+    89.96deg,
+    rgba(255, 255, 255, 0) 0.53%,
+    rgba(1, 118, 250, 0.08) 48.5%,
+    rgba(255, 255, 255, 0) 99.97%
+  );
   width: 100vw;
   box-sizing: border-box;
   padding: 1rem;
@@ -72,19 +76,15 @@
     animation: marquee 10s linear infinite running;
   }
 
-
-
   &-tag {
-
-    margin: 0 .5em;
-    padding: .5em;
-    background: rgba(255, 255, 255, .1);
+    margin: 0 0.5em;
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: all .2s ease;
+    transition: all 0.2s ease;
   }
-
 }
 
 @keyframes marquee {
