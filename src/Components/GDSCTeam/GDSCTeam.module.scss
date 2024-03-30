@@ -5,12 +5,15 @@
   justify-content: center;
   margin: 0 auto;
   width: 90vw;
+  padding-bottom: 25vh;
   overflow: hidden;
 
   .team-heading {
     color: #355385;
     font-size: 3rem;
     font-weight: 600;
+    text-align: center;
+
     @media screen and (max-width: 650px) {
       margin-top: 2rem;
       font-size: var(--gdsc-explore-heading-size-mobile);

@@ -13,7 +13,7 @@ const Hero = ({ registerRef, onLoad }) => {
   const isMobile = useMediaQuery("(max-width: 602px)");
 
   useEffect(() => {
-    fetch("/lotties/explore.json")
+    fetch("/lotties/heroAnimation.json")
       .then((response) => {
         onLoad(false);
         return response.json();

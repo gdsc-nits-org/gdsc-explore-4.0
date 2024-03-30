@@ -2,7 +2,7 @@
   visibility: visible;
   margin: 0 auto;
   width: 15rem;
-  height: 24rem;
+  height: 30rem;
   /* perspective: 500px; */
   transform-style: preserve-3d;
 }
@@ -23,7 +23,7 @@
   position: absolute;
   margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: 50%;
   left: 1.2rem;
   display: flex;
   align-items: center;
@@ -49,7 +49,7 @@
     text-align: center;
     font-size: 0.2rem;
     font-weight: bold;
-    margin: 0 0 0.7em;
+    margin: 0 0 0.7rem;
     color: #ffffff;
   }
 
@@ -76,7 +76,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 50%;
+  top: 40%;
 
   z-index: 12;
   cursor: pointer;
@@ -133,8 +133,12 @@
   flex-direction: row;
   column-gap: 0.1rem;
   position: relative;
-  top: 22rem;
+  top: 26rem;
   z-index: 6;
+
+  @media screen and (min-width: 378px) {
+    top: 29rem;
+  }
 
   .active,
   .inactive {
@@ -216,11 +220,11 @@
     url("https://res.cloudinary.com/dhry5xscm/image/upload/v1709721982/GDSC%20images/bg-pattern-top-left_xijini.svg");
   background-repeat: no-repeat;
   background-position:
-    200% 200%,
+    200% 250%,
     -200% 200%,
     -200% -200%;
-  width: 15rem;
-  height: 18rem;
+  // width: 15rem;
+  min-height: 15rem;
   box-shadow: 0 0 1rem #828283;
   border: 0px solid transparent;
   display: flex;
@@ -231,12 +235,23 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  margin-top: 2rem;
   transition-duration: 0.5s;
+
+  // @media screen and (min-width:300) {
+  //     height: 18rem;
+  // }
+
+  // @media screen and (min-width:370) {
+  //     height: 25rem;
+  // }
 
   .name {
     font-size: 0.8rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     transition-duration: 0.5s;
+    text-align: center;
   }
 
   .card-img {
