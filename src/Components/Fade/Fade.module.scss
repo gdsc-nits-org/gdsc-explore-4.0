@@ -3,6 +3,7 @@
   transition: 1s;
   opacity: 0;
 }
+
 .left.show {
   transform: translateX(0);
   opacity: 1;
@@ -13,6 +14,7 @@
   transition: 1s;
   opacity: 0;
 }
+
 .right.show {
   transform: translateX(0);
   opacity: 1;
@@ -21,16 +23,20 @@
 .bottom {
   opacity: 0;
 }
+
 .bottom.show {
   animation: bottomAnimate 0.7s ease-in-out forwards;
 }
+
 @keyframes bottomAnimate {
   0% {
     transform: translateY(10rem);
   }
+
   45% {
     opacity: 0.2;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;

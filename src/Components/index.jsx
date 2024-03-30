@@ -13,6 +13,7 @@ import Registration from "./Registration/Registration";
 import GDSCTeam from "./GDSCTeam/GDSCTeam";
 import GDSCTeamCard from "./GDSCTeamCard/GDSCTeamCard";
 import Loader from "./Loader/Loader";
+import FAQ from "./FAQ/FAQ";
 
 export {
   About,
@@ -30,4 +31,5 @@ export {
   GDSCTeam,
   GDSCTeamCard,
   Loader,
+  FAQ,
 };

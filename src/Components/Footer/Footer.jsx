@@ -1,36 +1,89 @@
-import { AiOutlineTwitter, AiFillYoutube, AiFillInstagram } from "react-icons/ai";
+import { Link } from "react-router-dom";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn, FaFacebookF, FaYoutube } from "react-icons/fa";
 import style from "./Footer.module.scss";
+import Vector from "../BlueVector/Vector";
+import vectorIconLeft from "../../Assets/images/vector-left.png";
+import vectorIconRight from "../../Assets/images/vector-right.png";
+import Icon from "../Icons/Icon";
+import vectorGDSCIcon from "../../Assets/images/gdsc-icon.png";
 
 const Footer = () => {
   return (
-    <footer className={style.footer}>
-      <div className={style.mail}>
-        <h1 className={style.heading}>Email us at</h1>
-        <p className={style.subHeading}>exploregdsc@gmail.com</p>
-      </div>
-      <div className={style.graphic}>
-        <a href="mailto:exploregdsc@gmail.com">
-          <img src="/assets/images/email-logo.svg" alt="email" />
-        </a>
-      </div>
-      <div className={style.links}>
-        <h1 className={style.heading}>Follow us on</h1>
-        <div className={style.socials}>
-          <a href="https://twitter.com/exploregdsc" target="_blank">
-            <AiOutlineTwitter id={style.twitter} />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCMLgnvt5f-GPdpj-mwgvbmw"
+    <div className={style.fcontainer}>
+      <footer className={style.footer}>
+        <Vector className={style.vector} vectorSrc={vectorIconLeft} />
+
+        <div className={style.iconContainer}>
+          <Link className={style.icon} target="_blank" to="https://twitter.com/gdscnits">
+            <FaXTwitter />
+          </Link>
+          <Link
+            className={style.icon}
             target="_blank"
+            to="https://www.linkedin.com/company/gdscnits/mycompany/"
           >
-            <AiFillYoutube id={style.youtube} />
-          </a>
-          <a href="https://www.instagram.com/exploregdsc/" target="_blank">
-            <AiFillInstagram id={style.instagram} />
+            <FaLinkedinIn />
+          </Link>
+        </div>
+
+        <div className={style.gdscContainer}>
+          <Icon iconSrc={vectorGDSCIcon} />
+          <h2>GDSC Explore</h2>
+          <p>Email us at </p>
+          <a href="mailto:gdsc@nits.ac.in" target="_blank">
+            exploregdsc@gmail.com
           </a>
         </div>
-      </div>
-    </footer>
+        <div className={style.iconMblContainer}>
+          <Link className={style.icon} target="_blank" to="https://twitter.com/gdscnits">
+            <FaXTwitter />
+          </Link>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.linkedin.com/company/gdscnits/mycompany/"
+          >
+            <FaLinkedinIn />
+          </Link>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.facebook.com/gdscnits/"
+          >
+            <FaFacebookF />
+          </Link>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.youtube.com/@gdscnits"
+          >
+            <FaYoutube />
+          </Link>
+        </div>
+
+        <div className={style.iconContainer}>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.facebook.com/gdscnits/"
+          >
+            <FaFacebookF />
+          </Link>
+          <Link
+            className={style.icon}
+            target="_blank"
+            to="https://www.youtube.com/@gdscnits"
+          >
+            <FaYoutube />
+          </Link>
+        </div>
+
+        <Vector className={style.vector} vectorSrc={vectorIconRight} />
+      </footer>
+
+      <p className={style.copyright}>Copyright © 2024. All Rights Reserved</p>
+    </div>
   );
 };
 

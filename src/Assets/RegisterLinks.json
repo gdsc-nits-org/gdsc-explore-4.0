@@ -1,32 +1,32 @@
 [
   {
     "id": "1",
-    "heading": "NIT Silchar Registrations",
+    "heading": "NIT Silchar Events",
     "link": "/registration/nits",
-    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/nits_wbrpgt.jpg"
+    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/nits_wbrpgt.webp"
   },
   {
     "id": "2",
-    "heading": "JEC Registrations",
+    "heading": "JEC Events",
     "link": "https://docs.google.com/forms/d/e/1FAIpQLSe4DfKszDbjgINOdSYyzlxefmIU4Cn5wfUJfg_tCaBpbB7XGQ/closedform",
     "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101069/GDSC%20Explore%202023/jec_fyqoll.webp"
   },
   {
     "id": "3",
-    "heading": "AEC Registrations",
+    "heading": "AEC Events",
     "link": "#",
-    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101071/GDSC%20Explore%202023/aec_osrohx.jpg"
-  },
-  {
-    "id": "4",
-    "heading": "Gauhati University Registrations",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSevgKlpltyNzvyVP0NTLE-xrpA_9ayFc-sISEtmF1_UBvus4A/viewform?usp=sf_link",
-    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/gu_nfnnrq.avif"
+    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101071/GDSC%20Explore%202023/aec_osrohx.webp"
   },
   {
     "id": "5",
-    "heading": "Kaziranga University Registrations",
-    "link": "https://forms.gle/BJuj1vn918LGvVE18",
-    "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/aku_lbehc6.jpg"
+    "heading": "Tezpur University Events",
+    "link": "#",
+    "cover": "https://res.cloudinary.com/dhry5xscm/image/upload/v1711639388/GDSC%20images/TU_h5jztq.webp"
+  },
+  {
+    "id": "6",
+    "heading": "NIT Agartala Events",
+    "link": "#",
+    "cover": "https://res.cloudinary.com/dhry5xscm/image/upload/v1711639028/GDSC%20images/nita_fd39gn.webp"
   }
 ]

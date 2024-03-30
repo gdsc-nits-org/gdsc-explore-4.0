@@ -1,26 +1,15 @@
-import {
-  About,
-  Rules,
-  Hero,
-  Registration,
-  GDSCTeam,
-  Speaker,
-  Sponsor,
-} from "../../Components";
-
+import { About, Hero, Registration, GDSCTeam, FAQ, Sponsor } from "../../Components";
+import sponsors from "../../Assets/Sponsors.json";
 import style from "./Home.module.scss";
-
-import Associations from "../../Assets/Association.json";
 
 const Home = ({ aboutRef, rulesRef, teamRef, registerRef, onLoad }) => {
   return (
     <main className={style.home}>
       <Hero rulesRef={rulesRef} registerRef={registerRef} onLoad={onLoad} />
       <About aboutRef={aboutRef} />
-      <Sponsor title="In Association With" data={Associations} />
-      <Speaker />
       <Registration registerRef={registerRef} />
-      <Rules rulesRef={rulesRef} />
+      <Sponsor title="Past Sponsors" data={sponsors} />
+      <FAQ />
       <GDSCTeam teamRef={teamRef} />
     </main>
   );

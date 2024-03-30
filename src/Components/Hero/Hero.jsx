@@ -6,14 +6,14 @@ import Fade from "../Fade/Fade";
 import style from "./Hero.module.scss";
 import { useMediaQuery } from "../../Hooks";
 
-const Hero = ({ rulesRef, registerRef, onLoad }) => {
+const Hero = ({ registerRef, onLoad }) => {
   const [exploreAnimationData, setExploreAnimationData] = useState();
   const [scrollAnimationData, setScrollAnimationData] = useState();
   const homeRef = useRef(null);
   const isMobile = useMediaQuery("(max-width: 602px)");
 
   useEffect(() => {
-    fetch("/lotties/explore.json")
+    fetch("/lotties/heroAnimation.json")
       .then((response) => {
         onLoad(false);
         return response.json();
@@ -62,10 +62,10 @@ const Hero = ({ rulesRef, registerRef, onLoad }) => {
           />
         </h1>
         <Fade type="bottom">
-          <h2>The Largest Student-led Hackathon In NorthEast India</h2>
+          <h2>Explore the Developers from the Northeast</h2>
           <p className={`${style.fadeIn1} ${style.show1}`}>
             <img src="/assets/images/clock.svg" alt="timer" />
-            From 14th May to 17th May 2023
+            From 5th April to 7th April 2024
           </p>
           <div className={style.btn}>
             <Button
@@ -81,13 +81,15 @@ const Hero = ({ rulesRef, registerRef, onLoad }) => {
               Register
             </Button>
             <Button
-              rulesRef={rulesRef}
+              primary
               size={isMobile ? "medium" : "large"}
               onClick={() => {
-                rulesRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+                window.open(
+                  "https://drive.google.com/file/d/1w1Fk4prs8Hl-lFKBVqJYG8r4AKNoDbZt/view"
+                );
               }}
             >
-              Rules and Regulations
+              Brochure
             </Button>
           </div>
         </Fade>
@@ -97,6 +99,7 @@ const Hero = ({ rulesRef, registerRef, onLoad }) => {
       </div>
       <button
         className={style.scrollbtn}
+        aria-label="scroll down"
         onClick={() => {
           window.scrollTo({ top: homeRef.current.offsetHeight, behavior: "smooth" });
         }}
