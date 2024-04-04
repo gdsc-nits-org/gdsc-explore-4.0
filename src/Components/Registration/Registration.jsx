@@ -1,5 +1,6 @@
 import styles from "./Registration.module.scss";
 import college from "../../Assets/RegisterLinks.json";
+import Button from "../Button/Button";
 import Fade from "../Fade/Fade";
 
 const Registration = ({ registerRef }) => {
@@ -17,11 +18,11 @@ const Registration = ({ registerRef }) => {
               <div className={styles.tint}></div>
               <div className={styles.rg}>
                 <p>{item.heading}</p>
-                {/* <a href={item.link} target="_blank">
-                  <Button primary size="small" disabled>
-                    {item.link === "#" ? "Closed" : "Closed"}
+                <a href={item.link} target="_blank">
+                  <Button primary size="small">
+                    Register
                   </Button>
-                </a> */}
+                </a>
               </div>
             </div>
           ))}
