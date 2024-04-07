@@ -2,31 +2,25 @@
   {
     "id": "1",
     "heading": "NIT Silchar Events",
-    "link": "/registration/nits",
+    "link": "https://docs.google.com/document/d/1OAOAH87fHeMIkJFKG5gzqmLCGwSaN_KRmatyRO2lQIM/edit?usp=drivesdk",
     "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101068/GDSC%20Explore%202023/nits_wbrpgt.webp"
+  },
+  {
+    "id": "6",
+    "heading": "NIT Agartala Events",
+    "link": "https://docs.google.com/document/d/1bI9s-MFWud1PAxpfGM5EyRsaHTUs4O5QqsZVgRi3roI/edit?usp=sharing",
+    "cover": "https://res.cloudinary.com/dhry5xscm/image/upload/v1711639028/GDSC%20images/nita_fd39gn.webp"
   },
   {
     "id": "2",
     "heading": "JEC Events",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSe4DfKszDbjgINOdSYyzlxefmIU4Cn5wfUJfg_tCaBpbB7XGQ/closedform",
+    "link": "https://docs.google.com/document/d/1dc0aIQicJ7CEWDxnWSQwIFZGUZGPpgqyXrw3Jedubvk/edit?usp=sharing",
     "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101069/GDSC%20Explore%202023/jec_fyqoll.webp"
   },
   {
     "id": "3",
     "heading": "AEC Events",
-    "link": "#",
+    "link": "https://docs.google.com/document/d/1Ne0-Xm5uOVxMcan1QXxARyqGkXsz1lMpjCaLMhmjpMI/edit?usp=sharing",
     "cover": "https://res.cloudinary.com/dgegjgvsg/image/upload/v1680101071/GDSC%20Explore%202023/aec_osrohx.webp"
-  },
-  {
-    "id": "5",
-    "heading": "Tezpur University Events",
-    "link": "#",
-    "cover": "https://res.cloudinary.com/dhry5xscm/image/upload/v1711639388/GDSC%20images/TU_h5jztq.webp"
-  },
-  {
-    "id": "6",
-    "heading": "NIT Agartala Events",
-    "link": "#",
-    "cover": "https://res.cloudinary.com/dhry5xscm/image/upload/v1711639028/GDSC%20images/nita_fd39gn.webp"
   }
 ]

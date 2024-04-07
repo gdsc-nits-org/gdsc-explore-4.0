@@ -24,43 +24,8 @@ const Sponsor = ({ title, data }) => {
         {title}
       </div>
       <div className={styles["Marquee"]}>
-        <div className={styles["Marquee-content"]}>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
-          </div>
+        <div className={styles["Marquee-tag"]}>
+          <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
         </div>
       </div>
     </div>
