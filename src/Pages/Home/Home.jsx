@@ -8,7 +8,7 @@ const Home = ({ aboutRef, rulesRef, teamRef, registerRef, onLoad }) => {
       <Hero rulesRef={rulesRef} registerRef={registerRef} onLoad={onLoad} />
       <About aboutRef={aboutRef} />
       <Registration registerRef={registerRef} />
-      <Sponsor title="Past Sponsors" data={sponsors} />
+      <Sponsor title="Sponsors" data={sponsors} />
       <FAQ />
       <GDSCTeam teamRef={teamRef} />
     </main>

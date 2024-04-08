@@ -1,7 +1,8 @@
+import { Fragment } from "react";
 import SponsorCard from "../SponsorCard/SponsorCard";
 import styles from "./Sponsor.module.scss";
 
-const Sponsor = ({ title }) => {
+const Sponsor = ({ title, data }) => {
   return (
     // <section className={styles.sponsor}>
     //   <h1 className={styles["sponsor-heading"]}>{title || "Sponsors"}</h1>
@@ -19,57 +20,12 @@ const Sponsor = ({ title }) => {
     //   ))}
     // </section>
     <div className={styles.mainCont}>
-      <div className={styles["sponsor-heading"]}>{title}</div>
-      <div className={styles.Marquee}>
-        <div className={styles["Marquee-content"]}>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard
-              name="INTERVIEW BUDDY LOGO"
-              logo="/assets/sponsors/interviewbuddy.png"
-            />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard
-              name="INTERVIEW BUDDY LOGO"
-              logo="/assets/sponsors/interviewbuddy.png"
-            />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard
-              name="INTERVIEW BUDDY LOGO"
-              logo="/assets/sponsors/interviewbuddy.png"
-            />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="TASKADE LOGO" logo="/assets/sponsors/taskade.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard name="DOT XYZ LOGO" logo="/assets/sponsors/xyz.png" />
-          </div>
-          <div className={styles["Marquee-tag"]}>
-            <SponsorCard
-              name="INTERVIEW BUDDY LOGO"
-              logo="/assets/sponsors/interviewbuddy.png"
-            />
-          </div>
+      <div className={styles['sponsor-heading']}>
+        {title}
+      </div>
+      <div className={styles["Marquee"]}>
+        <div className={styles["Marquee-tag"]}>
+          <SponsorCard name="INTERVIEW BUDDY LOGO" logo="/assets/sponsors/interviewbuddy.png" />
         </div>
       </div>
     </div>
